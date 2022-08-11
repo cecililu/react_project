@@ -2,8 +2,23 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>Props and Context</h1>
+    <div className="App">
+      <div>
+        <ul>
+          <h2>Props and Context(Implementation of Context API)</h2>
+        </ul>
+        <li>Use React Router Dom latest version</li>
+        <li>Create a Page Directory</li>
+        <li>Add three pages(Home.jsx, About.jsx, Contactus.jsx) inside it</li>
+        <li>
+          Add headings h1 and paragraph text to each page( for paragraph text
+          use lorem)
+        </li>
+        <li>add those routes to React Router Dom</li>
+        <li>
+          Navigation bar is not necessary, but the routes should work well
+        </li>
+      </div>
     </div>
   );
 }
