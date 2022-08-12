@@ -16,7 +16,7 @@ function App() {
         </li>
         <li>add those routes to React Router Dom</li>
         <li>
-          Navigation bar is not necessary, but the routes should work well
+          Navigation bar is not necessary, but the routes must work well.
         </li>
       </div>
     </div>
