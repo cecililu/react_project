@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div>
         <ul>
-          <h2>Props and Context(Implementation of Context API)</h2>
+          <h2>Routing in React through react router dom v6</h2>
         </ul>
         <li>Use React Router Dom latest version</li>
         <li>Create a Page Directory</li>
