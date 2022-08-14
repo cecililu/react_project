@@ -1,10 +1,14 @@
 import "./App.css";
+import { Main } from "./section/Main";
+import { NavBar } from "./section/NavBar";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <ul>
+       <NavBar/>
+        <Main/>
+        {/* <ul>
           <h2>Routing in React through react router dom v6</h2>
         </ul>
         <li>Use React Router Dom latest version</li>
@@ -17,7 +21,7 @@ function App() {
         <li>add those routes to React Router Dom</li>
         <li>
           Navigation bar is not necessary, but the routes must work well.
-        </li>
+        </li> */}
       </div>
     </div>
   );
