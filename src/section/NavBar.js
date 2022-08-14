@@ -24,7 +24,7 @@ export const NavBar = () => {
              <Link to="about" style={{textDecoration:'none' ,color:'white'}}>About</Link>
               </Button>
             <Button color='inherit'>
-            <Link to="/" style={{textDecoration:'none',color:'white'}} >Contact us</Link>
+            <Link to="contact" style={{textDecoration:'none',color:'white'}} >Contact us</Link>
             </Button>
          </Stack>
       </Toolbar>
