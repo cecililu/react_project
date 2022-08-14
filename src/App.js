@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter} from 'react-router-dom'
 import { Main } from "./section/Main";
 import { NavBar } from "./section/NavBar";
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <div>
+        <BrowserRouter>
        <NavBar/>
         <Main/>
         {/* <ul>
@@ -22,6 +24,7 @@ function App() {
         <li>
           Navigation bar is not necessary, but the routes must work well.
         </li> */}
+        </BrowserRouter>
       </div>
     </div>
   );
